@@ -27,6 +27,10 @@ body {
   min-width: 500px;
   width: auto !important;
   width: 500px;
+  zoom: 90%;
+}
+body.modal-open {
+  padding-right: 0px !important;
 }
 #header {
   background-blend-mode:lighten;
@@ -171,4 +175,7 @@ a.but_text:active {
 }
 .modal-backdrop {
     position: relative;
+}
+.modal-open {
+    overflow: visible;
 }

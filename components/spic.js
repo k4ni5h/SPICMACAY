@@ -22,7 +22,6 @@ $('ul.nav li.dropdown').hover(function() {
 $(window).on('hashchange', function() {community();});
 function community() {
     str=window.location.hash;
-    console.log(str);
     if (str=="#home") {
         return home();
     }

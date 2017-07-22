@@ -169,3 +169,6 @@ a.but_text:active {
 .fullimg {
   width: 100%;
 }
+.modal-backdrop {
+    position: relative;
+}

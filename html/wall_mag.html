@@ -6,3 +6,23 @@
 	<p class="gallery-content"> True to the group`s objectives,this magazine highlights the supremacy of the premier Indian culture. An article discovers the real meaning of belonging to a country like India and explores the phenomenon of 'unity in diversity'. These and many other heart warming features render an unexplicable uniqueness to the wall magazine which touches the inner conscience while tickling the aesthetic sense of the reader. A sincere effort at dusting clear some forgotten facts, this magazine is sure to remain etched in the readers` minds forever.
 </p>
 <div>
+
+	<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="caption"></div>
+		</div>
+
+
+		<script>
+			$('img').click(function() {
+				var modal = document.getElementById('myModal');
+		   		modal.style.display = "block";
+				var ia = $(this).attr("src");
+				$( "#img01" ).html( '<img class="js-modal-image img01" src="'+ia+'" />' );
+				var span = document.getElementsByClassName("modal")[0];
+				span.onclick = function() { 
+					modal.style.display = "none";
+				}
+			});
+		</script>

@@ -40,3 +40,22 @@
 		and many more...<br>
 		These artists perform not only in our campus at IIT Roorkee but also in nearby schools and colleges like <b>College of Engineeing Roorkee (COER), Army School </b>etc.</p>
 	</div>
+	<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="caption"></div>
+		</div>
+
+
+		<script>
+			$('img').click(function() {
+				var modal = document.getElementById('myModal');
+		   		modal.style.display = "block";
+				var ia = $(this).attr("src");
+				$( "#img01" ).html( '<img class="js-modal-image img01" src="'+ia+'" />' );
+				var span = document.getElementsByClassName("modal")[0];
+				span.onclick = function() { 
+					modal.style.display = "none";
+				}
+			});
+		</script>

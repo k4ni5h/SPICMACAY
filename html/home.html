@@ -97,3 +97,23 @@
 <p class="contents">
 	SPIC MACAY IIT Roorkee Chapter, as elsewhere, is managed by a group of student enthusiasts who are engaged in a constant endeavor to create further awareness and appreciation of our culture. With the doyens of classical music and dance lending their support to the movement, the IIT Roorkee Chapter organizes a number of programs on campus as well as in the neighboring schools.
 </p>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+<script>
+	$('img').click(function() {
+		var modal = document.getElementById('myModal');
+   		modal.style.display = "block";
+		var ia = $(this).attr("src");
+		$( "#img01" ).html( '<img class="js-modal-image img01" src="'+ia+'" />' );
+		var span = document.getElementsByClassName("modal")[0];
+		span.onclick = function() { 
+			modal.style.display = "none";
+		}
+	});
+</script>

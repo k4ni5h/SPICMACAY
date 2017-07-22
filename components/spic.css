@@ -18,9 +18,6 @@
 #myBtn:hover {
   background-color: #555;
 }
-#myBtn:active {
-  background-color: #ffffff;
-}
 body {
   background-color: #ffffcc;
   background-blend-mode:color-dodge;
@@ -83,6 +80,10 @@ a.but_text:hover {
 a.but_text:active {
   color: red;
   background-color: white;
+}
+.nav .open > a {
+  background-color: #4d3300;
+  border-color: #337ab7;
 }
 .button {
   background-color: #4d3300;

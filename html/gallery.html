@@ -1,0 +1,48 @@
+<div class="container" id="gallery">
+	<center><div class="mainul"><div class="mainheading">Gallery</div></div></center>
+	<div class="gallery-content">
+		<div id="gallery-content-center">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/1.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/2.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/3.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/4.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/5.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/6.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/9.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/18.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/10.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/11.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/12.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/13.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/14.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/15.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/7.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/19.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/8.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/16.jpg" class="img" id="myImg" /></div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 galleryimg"><img src="images/gallery/17.jpg" class="img" id="myImg" /></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+<script>
+	$('img').click(function() {
+		var modal = document.getElementById('myModal');
+   		modal.style.display = "block";
+		var ia = $(this).attr("src");
+		$( "#img01" ).html( '<img class="js-modal-image img01" src="'+ia+'" />' );
+		var span = document.getElementsByClassName("modal")[0];
+		span.onclick = function() { 
+			modal.style.display = "none";
+		}
+	});
+</script>

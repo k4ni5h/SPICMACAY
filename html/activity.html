@@ -42,13 +42,13 @@
 	</div>
 	<div id="myModal" class="modal">
 		  <span class="close">&times;</span>
-		  <img class="modal-content" id="img01">
+		  <div class="modal-content" id="img01"></div>
 		  <div id="caption"></div>
 		</div>
 
 
 		<script>
-			$('img').click(function() {
+			$('.img').click(function() {
 				var modal = document.getElementById('myModal');
 		   		modal.style.display = "block";
 				var ia = $(this).attr("src");

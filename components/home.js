@@ -56,22 +56,16 @@ function inten(){
 function abcd1(){
   for(i=0;i<stu.length;i++)
   {
-    $( "#student" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
+    $( "#student_4" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
   }
-}
-function abcd2(){
   for(i=0;i<stu.length;i++)
   {
     $( "#student_3" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
   }
-}
-function abcd3(){
   for(i=0;i<stu.length;i++)
   {
     $( "#student_2" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
   }
-}
-function abcd4(){
   if(stu.length==0) {
     $( "#student_1" ).html("will recruit soon");
   }

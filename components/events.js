@@ -1,7 +1,7 @@
 
 var allevents=[
 	{
-		date:"30 Jul 2017",
+		date:"30 Jul 2018",
 		topic:"Newton aa gaya kisi din to bahut marega",
 		time:"6:20 PM",
 		venue:"O. P. Jain",
@@ -68,6 +68,9 @@ function abcd(){
 		}
 		else if (yesdate.getFullYear() == even_date.getFullYear() && yesdate.getMonth() == even_date.getMonth() && yesdate.getDate() == even_date.getDate()) {
 			ev_date="Yesterday";
+		}
+		else if (tdate.getFullYear()!=even_date.getFullYear()) {
+			ev_date=allevents[i]["date"];
 		}
 		for(j=0;j<allevents[i]["artists"].length;j++) {
 			art+='<li>'+allevents[i]["artists"][j]+'</li>';

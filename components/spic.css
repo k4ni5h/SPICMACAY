@@ -1,3 +1,6 @@
+p {
+  text-align: justify;
+}
 #myBtn {
   display: none;
   position: fixed;

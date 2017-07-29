@@ -2,7 +2,7 @@
 var allevents=[
 	{
 		date:"30 Jul 2017",
-		topic:"dhol bajao",
+		topic:"Newton",
 		time:"6:20 PM",
 		venue:"O. P. Jain",
 		anchor:["ads","adas"],
@@ -14,7 +14,7 @@ var allevents=[
 	},
 	{
 		date:"29 Jul 2017",
-		topic:"dhol bajao",
+		topic:"Einstein",
 		time:"6:20 PM",
 		venue:"O. P. Jain",
 		anchor:["ads","adas"],

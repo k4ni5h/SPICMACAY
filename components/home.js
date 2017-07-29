@@ -1,5 +1,9 @@
-var stu=['Abhishek Agarwal'];
-var stuimg=['images/team/volunteers/aditya.jpg'];
+var student={
+  4:[['Abhishek Agarwal','images/team/volunteers/aditya.jpg'],],
+  3:[['Abhishek Agarwal','images/team/volunteers/aditya.jpg'],],
+  2:[['Abhishek Agarwal','images/team/volunteers/aditya.jpg'],],
+  1:[]
+};
 
 (function() {
   // Masonry grid setup
@@ -54,23 +58,23 @@ function inten(){
 }
 
 function abcd1(){
-  for(i=0;i<stu.length;i++)
+  for(i=0;i<student[4].length;i++)
   {
-    $( "#student_4" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
+    $( "#student_4" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + student[4][i][1] + '"></div><div class="text-center h4">' + student[4][i][0] + '</div></div>' );
   }
-  for(i=0;i<stu.length;i++)
+  for(i=0;i<student[3].length;i++)
   {
-    $( "#student_3" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
+    $( "#student_3" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + student[3][i][1] + '"></div><div class="text-center h4">' + student[3][i][0] + '</div></div>' );
   }
-  for(i=0;i<stu.length;i++)
+  for(i=0;i<student[2].length;i++)
   {
-    $( "#student_2" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
+    $( "#student_2" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + student[2][i][1] + '"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
   }
-  if(stu.length==0) {
+  if(student[1].length==0) {
     $( "#student_1" ).html("will recruit soon");
   }
-  for(i=0;i<stu.length;i++)
+  for(i=0;i<student[1];i++)
   {
-    $( "#student_1" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + stuimg[0] + '"></div><div class="text-center h4">' + stu[0] + '</div></div>' );
+    $( "#student_1" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="' + student[1][i][1] + '"></div><div class="text-center h4">' + student[1][i][0] + '</div></div>' );
   }
 }

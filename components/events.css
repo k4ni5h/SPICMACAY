@@ -23,6 +23,8 @@
 	text-align: left;
 }
 .topic {
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 .place {
 	float: right;

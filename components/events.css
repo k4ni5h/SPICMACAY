@@ -19,9 +19,13 @@
 .date {
 	margin: auto;
 	float: left;
+	width: 100px;
+	text-align: left;
 }
 .topic {
 }
 .place {
 	float: right;
+	width: 150px;
+	text-align: right;
 }

@@ -27,7 +27,7 @@ var allevents=[
 	{
 		topic:"Newton ki seb upar gyi",
 		date:"30 Jul 2017",
-		time:"6:50 AM",
+		time:"8:57 AM",
 		venue:"O. P. Jain",
 		artists:[],
 		detail:"ajhdasdasd nagsh asdghas",

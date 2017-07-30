@@ -1,7 +1,7 @@
 var student={
-  4:[['Abhishek Agarwal','aditya.jpg'],],
-  3:[['Abhishek Agarwal','aditya.jpg'],],
-  2:[['Abhishek Agarwal','aditya.jpg'],],
+  4:[['Priyansh Kaushal','priyansh'],['Shambhavi Pandey','shambhavi'],['Apoorva Singhal','apoorva'],['Chandana Shree Mounika','chandana'],['Nimisha Gupta','nimisha'],['Alekhya Payla','alekhya'],['Nainsu Riya','nainsu'],['Ujjwal Gahlot','ujjwal'],['Ritesh Chauhan','ritesh'],['Chirag Gupta','chirag'],['Rahul Agarwal','rahul'],['Ajay Kumar','ajay'],['Kanhaiya Jaju','jaju'],['Arindham Purohit','arindham'],['Reshi Kiran NC','reshi'],['Pankaj Bansal','pankaj'],['Karan Verma','karan'],['Parag Jain','parag']],
+  3:[['Halember Manasa','manasa'],['Sejal Wasnik','sejal'],['Shruti Jamgade','shruti'],['Samila Subba','samila'],['Divya Kumawat','divya'],['Shivani Bhakal','shivani'],['Sanjana Garg','sanjana'],['Akshit Goel','akshit'],['Shahjad Ali','shahjad'],['Aryan Yadav','aryan'],['Adarsh Goyal','adarsh'],['Aman Azad','aman'],['Dikshit Gupta','dikshit'],['Anshul Dhunna','anshul'],['Deepak Sen','deepak'],['Deept Shukla','deept']],
+  2:[['Kanish','kanish'],['Tanpreet Singh Kalsi','tanpreet'],['Samarth Gubrele','gubrele'],['Nipun Pruthi','nipun'],['Kapil Birthala','jaipur'],['Vishal Purohit','vishal'],['Bharat Joshi','bharat'],['Pratyush Jha','jha'],['Sneha Maheshwari','mahishmati'],['Shazeb Ata','shazeb'],['An Var Ali','anvar'],['Mohit Aneja','mohit'],['Sourab Yadav','sourab'],['Naman Gupta','naman'],['Anirudh Garg','anirudh'],['Vaibhav Nayer','vaibhav2']],
   1:[]
 };
 
@@ -60,21 +60,21 @@ function inten(){
 function abcd1(){
   for(i=0;i<student[4].length;i++)
   {
-    $( "#student_4" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[4][i][1] + '"></div><div class="text-center h4">' + student[4][i][0] + '</div></div>' );
+    $( "#student_4" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[4][i][1] + '.jpg"></div><div class="text-center h4">' + student[4][i][0] + '</div></div>' );
   }
   for(i=0;i<student[3].length;i++)
   {
-    $( "#student_3" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[3][i][1] + '"></div><div class="text-center h4">' + student[3][i][0] + '</div></div>' );
+    $( "#student_3" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[3][i][1] + '.jpg"></div><div class="text-center h4">' + student[3][i][0] + '</div></div>' );
   }
   for(i=0;i<student[2].length;i++)
   {
-    $( "#student_2" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[2][i][1] + '"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
+    $( "#student_2" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[2][i][1] + '.jpg"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
   }
   if(student[1].length==0) {
-    $( "#student_1" ).html("will recruit soon");
+    $( "#student_1" ).html("<center>coming soon</center>");
   }
-  for(i=0;i<student[1];i++)
+  for(i=0;i<student[1].length;i++)
   {
-    $( "#student_1" ).append( '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[1][i][1] + '"></div><div class="text-center h4">' + student[1][i][0] + '</div></div>' );
+    $( "#student_1" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[1][i][1] + '.jpg"></div><div class="text-center h4">' + student[1][i][0] + '</div></div>' );
   }
 }

@@ -31,9 +31,13 @@ body {
   background-blend-mode:color-dodge;
   font-size: 18px;
   font-weight: 500;
+  min-width: 600px;
+}
 
-  min-width: 500px;
-  width: auto !important;
+@media screen and (max-width: 600px) and (min-width: 320px) {
+    body {
+         zoom: 70%;
+    }
 }
 body.modal-open {
   padding-right: 0px !important;

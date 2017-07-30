@@ -73,6 +73,7 @@
 }
 .photo {    
     border: 1px solid red;
+    width: 100px;
 }
 .entry {
     padding-top: 40px;

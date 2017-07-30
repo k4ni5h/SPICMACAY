@@ -227,3 +227,7 @@ a:hover {
   column-count:         2;
   }
 }
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+}

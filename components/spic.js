@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     document.getElementById("myBtn").style.display = "block";
-    setTimeout(function () {document.getElementById("myBtn").style.display = "none";}, 2000);
+    setTimeout(function () {document.getElementById("myBtn").style.display = "none";}, 5000);
 }
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {

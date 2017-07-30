@@ -61,51 +61,51 @@ function community() {
 }
 function home(){
      $("#body_content").load("html/home.html");
-     window.location = 'index.html#home';
+     window.location = '#home';
      document.getElementById('b_body').scrollIntoView();
 }
 function about(){
      $("#body_content").load("html/about.html");
-     window.location = 'index.html#about';
+     window.location = '#about';
      document.getElementById('b_body').scrollIntoView();
 }
 function activity(){
      $("#body_content").load("html/activity.html");
-     window.location = 'index.html#activity';
+     window.location = '#activity';
      document.getElementById('b_body').scrollIntoView();
 }
 function gallery(){
      $("#body_content").load("html/gallery.html");
-     window.location = 'index.html#gallery';
+     window.location = '#gallery';
      document.getElementById('b_body').scrollIntoView();
 }
 function team(){
      $("#body_content").load("html/team.html");
-     window.location = 'index.html#team';
+     window.location = '#team';
      document.getElementById('b_body').scrollIntoView();
 }
 function wincon(){
      $("#body_content").load("html/wincon.html");
-     window.location = 'index.html#wincon';
+     window.location = '#wincon';
      document.getElementById('b_body').scrollIntoView();
 }
 function winconimg(){
      $("#body_content").load("html/wincon_gallery.html");
-     window.location = 'index.html#wincon_img';
+     window.location = '#wincon_img';
      document.getElementById('b_body').scrollIntoView();
 }
 function contacts(){
      $("#body_content").load("html/contacts.html");
-     window.location = 'index.html#contacts';
+     window.location = '#contacts';
      document.getElementById('b_body').scrollIntoView();
 }
 function wall(){
      $("#body_content").load("html/wall_mag.html");
-     window.location = 'index.html#wall';
+     window.location = '#wall';
      document.getElementById('b_body').scrollIntoView();
 }
 function events(){
      $("#body_content").load("html/events.html");
-     window.location = 'index.html#events';
+     window.location = '#events';
      document.getElementById('b_body').scrollIntoView();
 }

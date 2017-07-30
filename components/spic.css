@@ -29,12 +29,11 @@ p {
 body {
   background-color: #ffffcc;
   background-blend-mode:color-dodge;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 
-  min-width: 500px;
+  min-width: 350px;
   width: auto !important;
-  width: 500px;
 }
 body.modal-open {
   padding-right: 0px !important;

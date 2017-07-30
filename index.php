@@ -50,7 +50,7 @@
 							<li class="button"><a onclick="return activity()" class="but_text">Activities</a></li><p class="gapbutton">
 							<li class="button"><a onclick="return gallery()" class="but_text">Gallery</a></li><p class="gapbutton">
 							<li class="button"><a onclick="return team()" class="but_text">Team</a></li><p class="gapbutton">
-							<li class="button"><a onclick="return wincon()" class="but_text">1st Wincon</a></li><p class="gapbutton">
+							<li class="button"><a onclick="return wincon()" class="but_text">1st WinCon</a></li><p class="gapbutton">
 							<li class="button"><a onclick="return contacts()" class="but_text">Contact</a></li><p class="gapbutton">
 							<li class="dropdown button">
 								<a class="dropbtn but_text" data-toggle="dropdown">

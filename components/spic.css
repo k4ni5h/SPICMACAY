@@ -33,7 +33,7 @@ body {
   font-weight: 500;
 
   min-width: 500px;
-  width: auto !important;
+  width: -moz-min-content;
 }
 body.modal-open {
   padding-right: 0px !important;

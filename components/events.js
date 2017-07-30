@@ -26,8 +26,8 @@ var allevents=[
 	},
 	{
 		topic:"Newton ki seb upar gyi",
-		date:"29 Jul 2017",
-		time:"6:20 PM",
+		date:"30 Jul 2017",
+		time:"6:50 AM",
 		venue:"O. P. Jain",
 		artists:[],
 		detail:"ajhdasdasd nagsh asdghas",
@@ -79,16 +79,22 @@ function abcd(){
 			proc+='<li>'+allevents[i]["proceedings"][j]+'</li>';
 		};
 		if(art=="") {
-			if (new Date(allevents[i]["date"]+" "+allevents[i]["time"])>new Date(Date()) || allevents[i]["proceedings"]=="") {
+			if (new Date(allevents[i]["date"]+" "+allevents[i]["time"])>new Date(Date())) {
 				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse in"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
+			}
+			else if (allevents[i]["proceedings"]=="") {
+				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
 			}
 			else {
 				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /><b>Commencement of Event :</b> '+allevents[i]["event_start"]+'<br /><b>Proceedings of Event :</b><br /><ul class="leftcontent">'+proc+'</ul></div></div></div>' );
 			}
 		}
 		else {
-			if (new Date(allevents[i]["date"]+" "+allevents[i]["time"])>new Date(Date()) || allevents[i]["proceedings"]=="") {
+			if (new Date(allevents[i]["date"]+" "+allevents[i]["time"])>new Date(Date())) {
 				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse in"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div><b>Artist(s) :</b> <ol class="leftcontent">'+art+'</li></ol></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
+			}
+			else if (allevents[i]["proceedings"]=="") {
+				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div><b>Artist(s) :</b> <ol class="leftcontent">'+art+'</li></ol></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
 			}
 			else {
 				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div><b>Artist(s) :</b> <ol class="leftcontent">'+art+'</li></ol></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /><b>Arrival of Artist(s) :</b> '+allevents[i]["artist_come"]+'<br /><b>Commencement of Event :</b> '+allevents[i]["event_start"]+'<br /><b>Anchors :</b> '+allevents[i]["anchor"][0]+' and '+allevents[i]["anchor"][1]+'<br /><b>Proceedings of Event 	:</b><br /><ul class="leftcontent">'+proc+'</ul></div></div></div>' );

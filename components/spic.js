@@ -56,56 +56,56 @@ function community() {
         return events();
     }
     else {
-         $("#body_content").load("html/home.html");
+         $("#body_content").load("htm/home.htm");
     }
 }
 function home(){
-     $("#body_content").load("html/home.html");
+     $("#body_content").load("htm/home.htm");
      window.location = '#home';
      document.getElementById('b_body').scrollIntoView();
 }
 function about(){
-     $("#body_content").load("html/about.html");
+     $("#body_content").load("htm/about.htm");
      window.location = '#about';
      document.getElementById('b_body').scrollIntoView();
 }
 function activity(){
-     $("#body_content").load("html/activity.html");
+     $("#body_content").load("htm/activity.htm");
      window.location = '#activity';
      document.getElementById('b_body').scrollIntoView();
 }
 function gallery(){
-     $("#body_content").load("html/gallery.html");
+     $("#body_content").load("htm/gallery.htm");
      window.location = '#gallery';
      document.getElementById('b_body').scrollIntoView();
 }
 function team(){
-     $("#body_content").load("html/team.html");
+     $("#body_content").load("htm/team.htm");
      window.location = '#team';
      document.getElementById('b_body').scrollIntoView();
 }
 function wincon(){
-     $("#body_content").load("html/wincon.html");
+     $("#body_content").load("htm/wincon.htm");
      window.location = '#wincon';
      document.getElementById('b_body').scrollIntoView();
 }
 function winconimg(){
-     $("#body_content").load("html/wincon_gallery.html");
+     $("#body_content").load("htm/wincon_gallery.htm");
      window.location = '#wincon_img';
      document.getElementById('b_body').scrollIntoView();
 }
 function contacts(){
-     $("#body_content").load("html/contacts.html");
+     $("#body_content").load("htm/contacts.htm");
      window.location = '#contacts';
      document.getElementById('b_body').scrollIntoView();
 }
 function wall(){
-     $("#body_content").load("html/wall_mag.html");
+     $("#body_content").load("htm/wall_mag.htm");
      window.location = '#wall';
      document.getElementById('b_body').scrollIntoView();
 }
 function events(){
-     $("#body_content").load("html/events.html");
+     $("#body_content").load("htm/events.htm");
      window.location = '#events';
      document.getElementById('b_body').scrollIntoView();
 }

@@ -60,21 +60,21 @@ function inten(){
 function abcd1(){
   for(i=0;i<student[4].length;i++)
   {
-    $( "#student_4" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[4][i][1] + '.jpg"></div><div class="text-center h4">' + student[4][i][0] + '</div></div>' );
+    $( "#student_4" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[4][i][1] + '.jpg"></div><div class="text-center h4">' + student[4][i][0] + '</div></div>' );
   }
   for(i=0;i<student[3].length;i++)
   {
-    $( "#student_3" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[3][i][1] + '.jpg"></div><div class="text-center h4">' + student[3][i][0] + '</div></div>' );
+    $( "#student_3" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[3][i][1] + '.jpg"></div><div class="text-center h4">' + student[3][i][0] + '</div></div>' );
   }
   for(i=0;i<student[2].length;i++)
   {
-    $( "#student_2" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[2][i][1] + '.jpg"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
+    $( "#student_2" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[2][i][1] + '.jpg"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
   }
   if(student[1].length==0) {
     $( "#student_1" ).html("<center>coming soon</center>");
   }
   for(i=0;i<student[1].length;i++)
   {
-    $( "#student_1" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[1][i][1] + '.jpg"></div><div class="text-center h4">' + student[1][i][0] + '</div></div>' );
+    $( "#student_1" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[1][i][1] + '.jpg"></div><div class="text-center h4">' + student[1][i][0] + '</div></div>' );
   }
 }

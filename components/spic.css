@@ -1,6 +1,20 @@
-p {
+@font-face {
+   font-family: LithosPro-Regular;
+   src: url('./fonts/LithosPro-Regular.otf');
+}
+body {
   text-align: justify;
   margin: 10px;
+  font-size: 23px;
+  font-style: normal;
+  font-variant: traditional;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: Josefin Slab;
+  margin: 0;
+}
+p {
+  margin: 15px 0px;
 }
 #myBtn {
   display: none;
@@ -80,6 +94,7 @@ hr {
 }
 .but_text {
   border-radius: 0px 0px;
+  font-family: LithosPro-Regular;
 }
 a.but_text {
   color: white;
@@ -119,7 +134,6 @@ a.but_text:active {
     color: white;
     padding: 10px 2px;
     font-size: 16px;
-    border: 10px 0px;
 }
 
 .dropdown {

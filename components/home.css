@@ -1,8 +1,13 @@
+@font-face {
+   font-family: LithosPro-Black;
+   src: url('./fonts/LithosPro-Black.otf');
+}
 .quote {
     font: 25px "Champagne & Limousines Bold";
     font-weight: 600;
     padding-top: 15px;
     padding-left: 50px;
+    font-family: LithosPro-Black;
 }
 .carousel {
     margin-top: 20px;
@@ -25,10 +30,13 @@
     width: auto;
     padding-left: 15px;
     width: 100%;
+    font-family: LithosPro-Regular;
+    padding-top: 10px;
 }
 .mainheading {
     font: 50px "Champagne & Limousines Bold";
     font-weight: 800;
+    font-family: LithosPro-Black;
 }
 .mainul {
     font-size: 40px;

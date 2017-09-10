@@ -1,5 +1,16 @@
-
 var allevents=[
+	{
+		topic:"Flute : Pt. Rajendra Prasanna",
+		date:"25 Aug 2017",
+		time:"6:30 PM",
+		venue:"DoMS",
+		artists:[],
+		detail:"Pt. Rajendra Prasanna hails from the renowned “Benaras Gharana” and is a master of Flute & Shehnai. He is known for the unique blend of fluency and melody in his recitals, his systematic ‘Badhat’ with an aesthetic approach has been one of the main qualities of his presentations. He has been recipient of various awards At a young age, he was honoured with many prestigious awards including “Surmani” in Mumbai 1978, “Sangeet Pujari” in Delhi 1986. He was also the recipient of the Life Time Achievement Award of the Sahara India in 2003.",
+		artist_come:"",
+		event_start:"",
+		anchor:[],
+		proceedings:[],
+	},
 	{
 		topic:"Pung Cholom : Mrindanga Kirtan",
 		date:"1 Aug 2017",

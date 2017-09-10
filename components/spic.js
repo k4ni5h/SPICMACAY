@@ -1,4 +1,3 @@
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -55,6 +54,9 @@ function community() {
     else if (str=="#events") {
         return events();
     }
+    else if (str=="#quiz") {
+        return quiz();
+    }
     else {
          $("#body_content").load("htm/home.htm");
     }
@@ -107,5 +109,10 @@ function wall(){
 function events(){
      $("#body_content").load("htm/events.htm");
      window.location = '#events';
+     document.getElementById('b_body').scrollIntoView();
+}
+function quiz(){
+     $("#body_content").load("htm/quiz.htm");
+     window.location = '#quiz';
      document.getElementById('b_body').scrollIntoView();
 }

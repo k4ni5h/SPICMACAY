@@ -23,7 +23,7 @@
 .filter {
 	text-decoration: none;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+  font-family: LithosPro-Regular;
 }
 .filter:hover {
     text-decoration: none;
@@ -79,7 +79,6 @@ element {
     height: 280px;
 }
 .namehead {
-	font-family: 'Droid Sans', sans-serif;
 	color: #2d2d2d;
     font-size: 24px;
     margin-top: 10px;
@@ -87,7 +86,6 @@ element {
     font-weight: 700;
 }
 .detnam {
-    font-family: 'Open Sans', sans-serif;
     color: #3d3d3d;
     font-size: 18px;
     margin-top: 10px;
@@ -102,7 +100,6 @@ element {
 	border-top-right-radius: 5px;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
-	font-family: "Open Sans",sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 20px;

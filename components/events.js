@@ -1,5 +1,17 @@
 var allevents=[
 	{
+		topic:"Balkan Music",
+		date:"27 Sep 2017",
+		time:"6:30 PM",
+		venue:"O.P. Jain",
+		artists:["Laurent Clouet", "Fakhroddin Ghaffari"],
+		detail:"An eclectic Clarinetist, Laurent Clouet was trained through his travels and his encounters in the music of oral traditions. He has learned music in Balkan (Southeast Europe) from great masters such as Selim Sesler (Turkey), Petar Voinikov (Bulgaria) and Manos Achalinotopoulos (Greece). Through his travels and meetings with musicians from various backgrounds in Europe and Asia, he has developed a great sense of improvisation and knowledge of many different musical forms. Iranian-born percussionist Fakhroddin Ghaffari has mastery over multiple Persian and Middle Eastern percussion instruments including his principal instrument, Tombak, as well as Darbuka and Daf. He founded the Viuna Music Ensemble with which he has toured across the country in various festivals like Sufi Darbar, Ruhaniyat, Jahan-e-Khusrau, Jamal-e-Begum-Akhtar and many more.",
+		artist_come:"",
+		event_start:"",
+		anchor:[],
+		proceedings:[],
+	},
+	{
 		topic:"Flute : Pt. Rajendra Prasanna",
 		date:"25 Aug 2017",
 		time:"6:30 PM",

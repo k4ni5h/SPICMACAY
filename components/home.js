@@ -3,9 +3,8 @@ var student={
   3:[['Halember Manasa','manasa'],['Sejal Wasnik','sejal'],['Shruti Jamgade','shruti'],['Samila Subba','samila'],['Divya Kumawat','divya'],['Shivani Bhakal','shivani'],['Sanjana Garg','sanjana'],['Akshit Goel','akshit'],['Shahjad Ali','shahjad'],['Aryan Yadav','aryan'],['Adarsh Goyal','adarsh'],['Aman Azad','aman'],['Dikshit Gupta','dikshit'],['Anshul Dhunna','anshul'],['Deepak Sen','deepak'],['Deept Shukla','deept'],['Vaibhav Gupta', 'vaibhav3']],
   2:[['Kanish','kanish'],['Tanpreet Singh Kalsi','tanpreet'],['Sakshi Priya','sakshi'],['Kapil Birthala','jaipur'],['Vishal Purohit','vishal'],['Bharat Joshi','bharat'],['Pratyush Jha','jha'],['Sneha Maheshwari','mahishmati'],['Shazeb Ata','shazeb'],['Mohit Aneja','mohit'],['Sourab Yadav','sourab'],['Naman Gupta','naman'],['Anirudh Garg','anirudh'],['Vaibhav Nayer','vaibhav2']],
 <<<<<<< HEAD
-  1:[['Prakhar','prakhar'],['Harshit','harshit']],
-=======
-  1:[]
+  1:[['Abhik Chakraborty','abhik'],['Ahmer Mehmood','ahmer'],['Amritha Muthuraman','amritha'],['Aniket Prajapati','aniket'],['Disha Bhatia','disha'],['Divyansh Vijay','divyansh'],['Harshit Kankariya','harshit'],['Jaya Singh','jaya'],['Menus Garg','menus'],['Muskan Garg','muskan'],['Nikhil Duggal','nikhil'],['Nisha Mittal','nisha'],['Prakhar Pandey','prakhar'],['Priya Gurjar','priya'],['Rahul Singhai','rahulsinghai'],['Sanyam Agrawal','sanyam'],['Shikhar Gupta','shikhar'],['Shri Ram Rawat','shriram'],['Shubham','shubham'],['Udisha Dubey','udisha'],['Vaibhav Pipara','vibhavpipara'],['Vinay Kumar','vinay']]
+
 >>>>>>> parent of 865d711... incerted 2 photos
 };
 

@@ -1,6 +1,6 @@
 @font-face {
    font-family: LithosPro-Black;
-   src: url('./fonts/LithosPro-Black.otf');
+   src: url('../fonts/LithosPro-Black.otf');
 }
 .quote {
     font: 25px "Champagne & Limousines Bold";

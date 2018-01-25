@@ -68,12 +68,7 @@ function abcd1(){
   }
   for(i=0;i<student[2].length;i++)
   {
-    if(i==2) {
-      $("#student_2").append('<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div class="img-circle" style=""><img style="width: 40%;height: 100px;float: left;border-right: 0;margin-left: 10%;" class="center-block photo" src="images/team/volunteers/sakshi.jpg"><img class="center-block photo" style="width: 40%;height: 100px;float: left;border-left: 0;" src="images/team/volunteers/jha.jpg"></div><div class="text-center h4">Sakshi &amp; Pratyush</div></div>');
-    }
-    else {
-      $( "#student_2" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[2][i][1] + '.jpg"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
-    }
+    $( "#student_2" ).append( '<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 animate-bottom"><div><img class="img-circle center-block photo" src="images/team/volunteers/' + student[2][i][1] + '.jpg"></div><div class="text-center h4">' + student[2][i][0] + '</div></div>' );
   }
   if(student[1].length==0) {
     $( "#student_1" ).html("<center>coming soon</center>");

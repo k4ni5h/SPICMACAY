@@ -1,5 +1,17 @@
 var allevents=[
 	{
+		topic:"Virasat",
+		date:"5 Feb 2018",
+		time:"",
+		venue:"",
+		artists:[],
+		detail:" Virasat will be organized by SPIC MACAY, IIT Roorkee from 5 to 11 February (a 7 days Program include 7 cconcerts and 5 workshops). This time Virasat is dedicated to Shri Vidhushi Girija Deviji, Pt. Buddhadev Das Guptaji, Pt.Ulhas Bapatji. Complete Schedule and their details will be updated on our website very soon.",
+		artist_come:"",
+		event_start:"",
+		anchor:[],
+		proceedings:[],
+	},
+	{
 		topic:"Quiz",
 		date:"15 Jan 2018",
 		time:"6:30 PM",
@@ -137,7 +149,18 @@ function abcd(){
 		for(j=0;j<allevents[i]["proceedings"].length;j++) {
 			proc+='<li>'+allevents[i]["proceedings"][j]+'</li>';
 		};
-		if(art=="") {
+		if(allevents[i]["time"]=="") {
+			if (new Date(allevents[i]["date"]+" "+allevents[i]["time"])>new Date(Date())) {
+				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse in"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
+			}
+			else if (allevents[i]["proceedings"]=="") {
+				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
+			}
+			else {
+				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /><b>Commencement of Event :</b> '+allevents[i]["event_start"]+'<br /><b>Proceedings of Event :</b><br /><ul class="leftcontent">'+proc+'</ul></div></div></div>' );
+			}
+		}
+		else if(art=="") {
 			if (new Date(allevents[i]["date"]+" "+allevents[i]["time"])>new Date(Date())) {
 				$( "#allevents" ).append( '<div class="panel panel-default eventhead"><div class="container headline" data-toggle="collapse" data-parent="#accordion" href="#collapse'+i+'"><span class="date">'+ev_date+'</span><span class="place">'+allevents[i]["venue"]+'</span><center><div class="topic">'+allevents[i]["topic"]+'</div></center></div><div id="collapse'+i+'" class="panel-collapse collapse in"><div class="panel-body"><center><h1>'+allevents[i]["topic"]+'</h1></center><div class="leftcontent"><div class="leftcontent"><b>Date :</b> '+evn_date+'<br /><b>Time :</b> '+allevents[i]["time"]+'<br /><b>Venue :</b> '+allevents[i]["venue"]+'<br /></div></div><b>Description of Event :</b> '+allevents[i]["detail"]+'<br /></div></div></div>' );
 			}

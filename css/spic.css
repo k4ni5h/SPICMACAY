@@ -1,6 +1,6 @@
 @font-face {
    font-family: LithosPro-Regular;
-   src: url('./fonts/LithosPro-Regular.otf');
+   src: url('../fonts/LithosPro-Regular.otf');
 }
 body {
   text-align: justify;

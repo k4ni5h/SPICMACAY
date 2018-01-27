@@ -1,6 +1,6 @@
 @font-face {
    font-family: LithosPro-Black;
-   src: url('./fonts/LithosPro-Black.otf');
+   src: url('../fonts/LithosPro-Black.otf');
 }
 .quote {
     font: 25px "Champagne & Limousines Bold";
@@ -78,10 +78,11 @@
 .foto {
     float: right;
     border: 1px solid black;
+    width: 200px;
 }
 .photo {    
     border: 1px solid red;
-    width: 100px;
+    width: 200px;
 }
 .entry {
     padding-top: 40px;
@@ -136,4 +137,3 @@
     margin-top: 10px;
     width: auto;
 }
-
